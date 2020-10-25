@@ -7,7 +7,7 @@
 
 (delete-selection-mode t)
 
-;; store all backups and autosaves in  savedir
+;; store all backups and autosaves in savedir
 (setq backup-directory-alist
       `(("." . ,savefile-dir)))
 
@@ -19,7 +19,7 @@
       `(("." . ,savefile-dir)))
 (setq undo-tree-auto-save-history t)
 
-;; automaticlalt revert buffers if files are changed
+;; automatically revert buffers if files are changed
 (global-auto-revert-mode t)
 
 ;;TODO hippie expand maybe one day
@@ -34,7 +34,6 @@
 ;; electric pair
 (electric-pair-mode 1)
 
-;; electric indent?
 
 ;; saveplace in file
 (setq save-place-file (expand-file-name "saveplace" savefile-dir))
@@ -58,7 +57,10 @@
 (require 'tramp)
 (set-default 'imenu-auto-rescan t)
 
-;; Where we would add flyspell
+;; enable flyspell
+(require 'flyspell)
+(add-hook 'find-file-hook 'turn-on-flyspell)
+
 
 (require 'projectile)
 (setq projectile-cache-file (expand-file-name "projectile.cache" savefile-dir))
@@ -77,7 +79,7 @@
 (require 'compile)
 (setq compilation-ask-about-save nil
       compilation-always-kill t
-      compilation-scroll-output 'first-errir
+      compilation-scroll-output 'first-error
       )
 
 ;; undo tree

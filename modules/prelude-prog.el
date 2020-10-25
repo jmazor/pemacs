@@ -6,6 +6,8 @@
 
 (defun prelude-prog-mode-defaults ()
   "Default coding hook, useful with any programming language."
+  (flyspell-prog-mode)
+  ;; Do something else
  )
 
 (setq prelude-prog-mode-hook 'prelude-prog-mode-defaults)
