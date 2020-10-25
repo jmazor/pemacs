@@ -4,7 +4,6 @@
 
 ;; TODO create a .gitattributes for cpplint and company
 ;; TODO create a package to remove line number margins
-;; TODO flyspell config
 
 ;; Always load newest byte-code
 (setq load-prefer-newer t)
