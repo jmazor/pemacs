@@ -4,6 +4,7 @@
 
 ;; TODO create a .gitattributes for cpplint and company
 ;; TODO create a package to remove line number margins
+;; TODO experiment with semantic mode. How does it work with company
 
 ;; Always load newest byte-code
 (setq load-prefer-newer t)

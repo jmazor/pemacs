@@ -68,7 +68,6 @@
     pdf-tools
     magit
     operate-on-number
-    ;;smartparens
     super-save
     undo-tree
     which-key
