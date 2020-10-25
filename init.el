@@ -2,6 +2,9 @@
 ;; Heavily based on prelude emacs
 ;; Goals are to make it more minimal, customized, and learn.
 
+;; TODO create a .gitattributes for cpplint and company
+;; TODO create a package to remove line number margins
+
 ;; Always load newest byte-code
 (setq load-prefer-newer t)
 
@@ -30,13 +33,14 @@
 ;; warn when openenig files bigger than 100MB
 (setq large-file-warning-threshold 100000000)
 
-;;modules
+;; modules
 (require 'prelude-packages)
 ;; load the core
 (require 'prelude-ui)
 (require 'prelude-core)
 (require 'prelude-editor)
 
+;; module configs
 (require 'modules)
 
 ;; config changes
