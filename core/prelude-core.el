@@ -1,6 +1,6 @@
 ;;; prelude-core.el
 ;; pretty much just byte compiles before hand
-;; this is where I would put search engine functions if i wanted
+;; TODO Google or DuckDuckGo search engine shortcut
 
 (defun recompile-init ()
   "Byte-compile all your dotfiles again."
