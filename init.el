@@ -40,6 +40,7 @@
 (require 'prelude-ui)
 (require 'prelude-core)
 (require 'prelude-editor)
+(require 'prelude-keybinds)
 
 ;; module configs
 (require 'modules)
