@@ -11,6 +11,8 @@ After install:
 
 Change /modules/prelude-company.el and /modules/cpplint.el directories for your machine
 
+create a .gnus.el if you want to use gnus mail reader
+
 If anyone ever uses this you are encouraged to fork your own copy and modify /core/prelude-packages.el and the rest of the config to your own liking. Packages installed are modified via /modules/modules.el and their respective files.
 /vendor is for packages not included in melpa.
 
