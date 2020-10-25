@@ -6,7 +6,6 @@
 
 (require 'prelude-ivy)
 (require 'prelude-company)
-;; TODO do I need company c headers
 (require 'prelude-org)
 ;; (require 'prelude-prog)
 (require 'prelude-lisp)
