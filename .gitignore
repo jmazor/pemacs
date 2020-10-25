@@ -1,0 +1,7 @@
+core/custom.el
+*.elc
+elpa/
+projectile-bookmarks.eld
+savefile/
+transient/
+auto-save-list/
