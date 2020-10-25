@@ -13,7 +13,7 @@ M-x Recompile-Init
 
 create a .gnus.el if you want to use gnus mail reader
 
-If anyone ever uses this you are encouraged to fork your own copy and modify /core/prelude-packages.el and the rest of the config to your own liking. Packages included are modified via /modules/modules.el and their respective files.
+If anyone ever uses this you are encouraged to fork your own copy and modify /core/prelude-packages.el and the rest of the config to your own liking. Packages included are modified via /modules/modules.el and their respective files. All packages are enabled by default.
 /vendor is for packages not included in melpa. This is where flycheck-google-cpplint is included in this distribution - https://github.com/flycheck/flycheck-google-cpplint
 
-This is my personal config please let me know if you come across any personal information accidently included.It will be updated whenever my config changes so do not expect stability. The intention is to follow most of prelude's philosopy, but create a much more personal distrubition. The necessties are an effective and minimal IDE, while keeping boot times low and performance high. I recommend forking your own copy.
+This is my personal config please let me know if you come across any personal information accidentally included. This will be updated whenever my config changes so do not expect stability. The intention is to follow most of prelude's philosopy, but create a much more personal distrubition, pre-tweaked with all packages ready to go. The necessities are an effective and minimal IDE, while keeping boot times low and performance high. I recommend forking your own copy.
