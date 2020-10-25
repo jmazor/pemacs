@@ -1,15 +1,15 @@
 ;;; modules.el --- module config
-;; TODO org agenda flyspell (not in prog modes)
-;; TODO add a prelude-prog
-;;FIXME remove flycheck from prelude-c
+;; TODO org agenda
+;; TODO flyspell (not in prog modes)
+;; TODO specifc c config
 
-
+;; You can comment out any module you do not want.
 (require 'prelude-ivy)
 (require 'prelude-company)
 (require 'prelude-org)
-;; (require 'prelude-prog)
+(require 'prelude-prog)
 (require 'prelude-lisp)
-(require 'prelude-c)
+;; (require 'prelude-c)
 (require 'prelude-eglot)
 (require 'prelude-yasnippet)
 
