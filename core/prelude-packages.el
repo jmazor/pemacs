@@ -68,6 +68,7 @@
     pdf-tools
     magit
     operate-on-number
+    rainbow-delimiters
     super-save
     undo-tree
     which-key
