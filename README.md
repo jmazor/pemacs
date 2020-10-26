@@ -20,7 +20,7 @@ This is my personal config please let me know if you come across any personal in
 
 ## License
 
-All files other than the vendor directory should be considered modified.
+Excluding the vendor directory, all files should be considered modified.
 
 This program is free software: you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software
