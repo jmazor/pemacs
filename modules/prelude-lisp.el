@@ -34,4 +34,7 @@
 
 (add-hook 'emacs-lisp-mode-hook #'rainbow-delimiters-mode)
 
+;; TODO am I using any other lisp dialect other than eLisp
+;; Do I want compile .el files on close
+
 (provide 'prelude-lisp)

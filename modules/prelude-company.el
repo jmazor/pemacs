@@ -31,6 +31,9 @@
 ;;; Code:
 (require 'company)
 
+;; TODO proper company autocomplete navigation
+;; currently only arrow keys work in company menu not C-p C-n
+
 (setq company-idle-delay 0.5)
 (setq company-show-numbers t)
 (setq company-tooltip-limit 10)
