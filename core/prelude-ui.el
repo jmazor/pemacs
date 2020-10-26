@@ -1,10 +1,11 @@
 ;; prelude-ui.el My custom Emacs UI config
-;; Please note that I use global-display-line-numbers-mode, however I recompile emacs so that there is margin on the line numbers.
+;; Please note that I use global-display-line-numbers-mode, however I recompile emacs so that there is no  margin on the line numbers
 ;; If anyone comes accross this I plan on creating a package that does this, however I am not yet informed enough. I had issues with nlinum and did not like linum. Im not picky though.
 
 ;; remove Toolbar
 (tool-bar-mode -1)
 
+;; remove scroll bar
 (toggle-scroll-bar -1)
 
 ;; remove blinking cursor
