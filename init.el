@@ -38,7 +38,9 @@
 
 ;; TODO create a .gitattributes for cpplint and company
 ;; TODO create a package to remove line number margins
-;; TODO experiment with semantic mode. How does it work with company
+;; TODO semantic mode vs irony mode
+;; Semantic is built in but adds unneeded opening times. I can experiment with idle settings but I was not having success with those.
+;; How does semantic and c headers compare to Irony
 
 ;; FIXME autosave errors from saving in /tmp
 

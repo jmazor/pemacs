@@ -40,12 +40,14 @@
 
 ;;; Uncomment the modules you'd like to use and restart Prelude afterwards
 ;; TODO org agenda
-;; TODO flyspell (not in prog modes)
-;; TODO specifc c config
+;; TODO C style
+;; TODO Test Company Irony vs semantics and headers
 
 ;; You can comment out any module you do not want.
 (require 'prelude-ivy)
 (require 'prelude-company)
+(require 'semantics) ;; This greatly slows down boot down
+;; because files are parsed on open
 (require 'prelude-org)
 (require 'prelude-prog)
 (require 'prelude-lisp)
