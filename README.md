@@ -20,6 +20,8 @@ This is my personal config please let me know if you come across any personal in
 
 ## License
 
+All files other than /vendor/ should be considered modified.
+
 This program is free software: you can redistribute it and/or modify it under
 the terms of the GNU General Public License as published by the Free Software
 Foundation, either version 3 of the License, or (at your option) any later
