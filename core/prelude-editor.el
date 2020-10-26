@@ -27,8 +27,13 @@
 
 ;;; Code:
 
+;; FIXME fix tab behavior. Company and semantic completions should be priority
+
 (setq-default indent-tabs-mode nil) ;; no tabs
 (setq-default tab-width 8)          ;;but add spaces
+
+;; smart tab behavior
+(setq tab-always-indent 'complete)
 
 (delete-selection-mode t)
 
@@ -59,8 +64,6 @@
 
 ;;TODO hippie expand maybe one day
 
-;; smart tab behavior
-(setq tab-always-indent 'complete)
 
 ;; show parenthesis
 (show-paren-mode 1)
