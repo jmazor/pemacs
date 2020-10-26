@@ -49,8 +49,7 @@
 (require 'prelude-org)
 (require 'prelude-prog)
 (require 'prelude-lisp)
-;; (require 'prelude-c)
-(require 'prelude-eglot)
+(require 'prelude-c)
 (require 'prelude-yasnippet)
 
 ;; vendors
