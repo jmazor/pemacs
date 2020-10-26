@@ -51,9 +51,13 @@
       auto-save-interval 200            ; number of keystrokes between auto-saves (default: 300)
       )
 
+;; Prepending the temp file directory seems to work
+;; I have no idea what this function really does though
 (setq auto-save-file-name-transforms
-      `(("." ,temporary-file-directory t)))      
+  (cons `(,(car (car auto-save-file-name-transforms)) 
+          ,(concat temporary-file-directory "\\2") t) auto-save-file-name-transforms))
 
+;; FIXME Undo tree saves a bunch of empty files and semantic goes through them
 ;; autosave undo-tree history
 (setq undo-tree-history-directory-alist
       `(("." . ,savefile-dir)))
