@@ -47,7 +47,7 @@
   '(;;avy
     ;;anzu
     all-the-icons
-    ;;browse-kill-ring
+    browse-kill-ring
     company
     company-c-headers
     crux
