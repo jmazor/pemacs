@@ -59,6 +59,7 @@
     gitconfig-mode
     gitignore-mode
     guru-mode
+    google-c-style
     hl-todo
     ivy
     counsel

@@ -30,9 +30,8 @@
 
 ;;; Code:
 
-;; TODO add c style
-
 (require 'prelude-prog)
+(require 'google-c-style)
 
 (add-hook 'c-mode-common-hook 'google-set-c-style)
 (add-hook 'c-mode-common-hook 'eglot-ensure)

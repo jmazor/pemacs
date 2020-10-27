@@ -54,7 +54,6 @@
 (require 'prelude-yasnippet)
 
 ;; vendors
-(require 'google-c-style)
 (require 'cpplint)
 
 ;; post c style
