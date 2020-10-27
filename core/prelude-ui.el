@@ -30,5 +30,12 @@
 ;; Defualt Gruvboxtheme
 (load-theme 'gruvbox-dark-hard t)
 
+;; We deal with doom-modeline here instead of modules
+;; This looks really nice so I will be keeping it and modifiying it as long as it doesnt slow me down
+;; Its seems fast however
+(require 'all-the-icons)
+(require 'doom-modeline)
+(doom-modeline-mode 1)
+
 (provide 'prelude-ui)
 ;;; prelude-ui.el ends here

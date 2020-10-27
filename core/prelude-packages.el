@@ -46,12 +46,14 @@
 (defvar prelude-packages
   '(;;avy
     ;;anzu
+    all-the-icons
     ;;browse-kill-ring
     company
     company-c-headers
     crux
     discover-my-major
     diff-hl
+    doom-modeline
     eglot
     flycheck
     gist
@@ -60,6 +62,7 @@
     gitignore-mode
     guru-mode
     google-c-style
+    gruvbox-theme
     hl-todo
     ivy
     counsel
@@ -73,7 +76,6 @@
     super-save
     undo-tree
     which-key
-    gruvbox-theme
     yasnippet
     yasnippet-snippets)
   "A list of packages to ensure are installed at launch.")
