@@ -17,9 +17,8 @@
 ;; disable splash screen
 (setq inhibit-splash-screen t)
 
-;; TODO if srolling is annoying change
-
 ;; Line numbers in Graphic mode and remove in term
+;; FIXME Fix line numbers
 (when (display-graphic-p)
   (global-display-line-numbers-mode t))
 (unless (display-graphic-p)

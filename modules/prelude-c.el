@@ -33,7 +33,9 @@
 (require 'prelude-prog)
 (require 'google-c-style)
 
+;; Sets google c style
 (add-hook 'c-mode-common-hook 'google-set-c-style)
+;; Automatically connect to ccls lsp server
 (add-hook 'c-mode-common-hook 'eglot-ensure)
 (provide 'prelude-c)
 ;;; prelude-programming.el ends here
