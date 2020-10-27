@@ -97,7 +97,7 @@
 
 
 (require 'tramp)
-(set-default 'imenu-auto-rescan t)
+(setq tramp-default-method "ssh")
 
 ;; enable flyspell
 (require 'flyspell)
