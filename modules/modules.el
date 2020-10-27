@@ -51,11 +51,14 @@
 (require 'prelude-org)
 (require 'prelude-prog)
 (require 'prelude-lisp)
-(require 'prelude-c)
 (require 'prelude-yasnippet)
 
 ;; vendors
+(require 'google-c-style)
 (require 'cpplint)
+
+;; post c style
+(require 'prelude-c)
 
 (provide 'modules)
 ;;; modules.el ends here

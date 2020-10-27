@@ -34,7 +34,7 @@
 
 (require 'prelude-prog)
 
-(add-hook 'c++-mode-hook 'eglot-ensure)
-(add-hook 'c-mode-hook 'eglot-ensure)
+(add-hook 'c-mode-common-hook 'google-set-c-style)
+(add-hook 'c-mode-common-hook 'eglot-ensure)
 (provide 'prelude-c)
 ;;; prelude-programming.el ends here
