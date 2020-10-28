@@ -7,7 +7,6 @@
 (flycheck-add-next-checker 'c/c++-cppcheck
                            '(warning . c/c++-googlelint))
 (custom-set-variables
-  ;; set this value to where your cpplint.py is. /bin/cpplint through pip
  '(flycheck-c/c++-googlelint-executable "/home/justin/Templates/cpplint/cpplint.py")
  '(flycheck-googlelint-filter "+whitespace, -whitespace/line_length"))
 
