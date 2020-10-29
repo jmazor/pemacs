@@ -35,6 +35,11 @@
 ;; smart tab behavior
 (setq tab-always-indent 'complete)
 
+;; Bookmark directory
+(require 'bookmark)
+(setq bookmark-default-file (expand-file-name "bookmarks" savefile-dir)
+      bookmark-save-flag 1)
+
 (delete-selection-mode t)
 
 ;; store all backups and autosaves in savedir
