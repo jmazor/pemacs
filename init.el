@@ -85,3 +85,7 @@
 
 ;; config changes
 (setq custom-file (expand-file-name "custom.el" core-dir))
+
+(require 'dashboard)
+(dashboard-setup-startup-hook)
+;;; init.el ends here
