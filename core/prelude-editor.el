@@ -27,6 +27,9 @@
 
 ;;; Code:
 
+;; Newline at end of file
+(setq require-final-newline t)
+
 ;; FIXME fix tab behavior. Company and semantic completions should be priority
 
 (setq-default indent-tabs-mode nil) ;; no tabs
