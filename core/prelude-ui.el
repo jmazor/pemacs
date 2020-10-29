@@ -57,7 +57,6 @@
 ;; Its seems fast however
 (require 'all-the-icons)
 
-(treemacs-icons-dired-mode)
 
 (require 'doom-modeline)
 ;; When in windowed mode
@@ -78,7 +77,7 @@
 ;; Defualt Gruvboxtheme
 (load-theme 'gruvbox-dark-hard t)
 
-
+(treemacs-icons-dired-mode)
 
 (provide 'prelude-ui)
 ;;; prelude-ui.el ends here
