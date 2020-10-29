@@ -74,6 +74,8 @@
     operate-on-number
     rainbow-delimiters
     super-save
+    treemacs
+    treemacs-icons-dired
     undo-tree
     which-key
     yasnippet

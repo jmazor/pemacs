@@ -25,6 +25,9 @@
 ;; This looks really nice so I will be keeping it and modifiying it as long as it doesnt slow me down
 ;; Its seems fast however
 (require 'all-the-icons)
+
+(treemacs-icons-dired-mode)
+
 (require 'doom-modeline)
 ;; When in windowed mode
 (when (display-graphic-p)
