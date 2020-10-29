@@ -33,6 +33,7 @@
 
 ;; TODO proper company autocomplete navigation
 ;; currently only arrow keys work in company menu not C-p C-n
+(semantic-mode 1)
 
 (setq company-idle-delay 0.5)
 (setq company-show-numbers t)

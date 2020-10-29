@@ -45,9 +45,8 @@
 
 ;; You can comment out any module you do not want.
 (require 'prelude-ivy)
-(require 'prelude-company)
-(require 'semantics) ;; This greatly slows down boot down
-;; because files are parsed on open
+(require 'prelude-company) ;; has semantic mode
+(require 'modeline)
 (require 'prelude-org)
 (require 'prelude-prog)
 (require 'prelude-lisp)

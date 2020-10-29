@@ -16,6 +16,11 @@
 ;; disable splash screen
 (setq inhibit-splash-screen t)
 
+;; nicer scrolling
+(setq scroll-margin 0
+      scroll-conservatively 100000
+      scroll-preserve-screen-position 1)
+
 ;; We deal with doom-modeline here instead of modules
 ;; This looks really nice so I will be keeping it and modifiying it as long as it doesnt slow me down
 ;; Its seems fast however
