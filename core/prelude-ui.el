@@ -34,6 +34,7 @@
 ;; remove Toolbar
 (tool-bar-mode -1)
 
+
 ;; remove scroll bar
 (toggle-scroll-bar -1)
 
@@ -48,8 +49,11 @@
 
 ;; nicer scrolling
 (setq scroll-margin 0
-      scroll-conservatively 100000
       scroll-preserve-screen-position 1)
+
+(require 'sublimity)
+(require 'sublimity-scroll)
+(require 'sublimity-attractive)
 
 
 ;; We deal with doom-modeline here instead of modules
