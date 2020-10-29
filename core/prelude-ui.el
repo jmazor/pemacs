@@ -34,6 +34,8 @@
 ;; remove Toolbar
 (tool-bar-mode -1)
 
+;; remove Menu bar
+(menu-bar-mode -1)
 
 ;; remove scroll bar
 (toggle-scroll-bar -1)
@@ -52,15 +54,12 @@
       scroll-preserve-screen-position 1)
 
 (require 'sublimity)
-(require 'sublimity-scroll)
 (require 'sublimity-attractive)
-
 
 ;; We deal with doom-modeline here instead of modules
 ;; This looks really nice so I will be keeping it and modifiying it as long as it doesnt slow me down
 ;; Its seems fast however
 (require 'all-the-icons)
-
 
 (require 'doom-modeline)
 ;; When in windowed mode
