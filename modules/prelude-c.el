@@ -37,5 +37,13 @@
 (add-hook 'c-mode-common-hook 'google-set-c-style)
 ;; Automatically connect to ccls lsp server
 (add-hook 'c-mode-common-hook 'eglot-ensure)
+
+;; While I enjoy how minimal eglot is my reason for not using lsp-mode is I could not get cpplint flycheck to coexist
+;; Eglot uses flymake so flymake and flycheck are being run
+;; Please note I use  cpplint flycheck as an educative resource. I turn it off when reading code I did not write (for obvious reasons)
+;; I do not have any intention at them moment to auto format programs other than enabling c style
+
+;; TODO test company c irony
+
 (provide 'prelude-c)
-;;; prelude-programming.el ends here
+;;; prelude-c.el ends here
