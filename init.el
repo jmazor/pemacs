@@ -37,12 +37,9 @@
 
 
 ;; TODO create a .gitattributes for cpplint and company
-;; TODO create a package to remove line number margins
 ;; TODO semantic mode vs irony mode
-;; Semantic is built in but adds unneeded opening times. I can experiment with idle settings but I was not having success with those.
-;; How does semantic and c headers compare to Irony
 
-;; FIXME autosave errors from saving in /tmp
+;; How does semantic and c headers compare to Irony
 
 ;; Always load newest byte-code
 (setq load-prefer-newer t)
@@ -59,6 +56,7 @@
 (defvar savefile-dir (expand-file-name "savefile" user-emacs-directory)
   "This is for all automatic save/history-files.")
 (defvar modules-file (expand-file-name "modules.el" modules-dir))
+
 
 (unless (file-exists-p savefile-dir)
   (make-directory savefile-dir))
@@ -83,9 +81,10 @@
 ;; module configs
 (require 'modules)
 
-;; config changes
 (setq custom-file (expand-file-name "custom.el" core-dir))
+(load custom-file)
 
+;; As this config gets more complex I will move this
 (require 'dashboard)
 (dashboard-setup-startup-hook)
 ;;; init.el ends here
