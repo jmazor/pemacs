@@ -71,7 +71,6 @@
   (add-hook 'window-configuration-change-hook
             (lambda ()
               (set-window-margins (car (get-buffer-window-list (current-buffer) nil t)) 1 0)))
-  (menu-bar-mode -1)
   )
 
 ;; enable y/n answers
