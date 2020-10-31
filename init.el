@@ -82,7 +82,9 @@
 (require 'modules)
 
 (setq custom-file (expand-file-name "custom.el" core-dir))
-(load custom-file)
+;; I know this file will always exist but not in every config
+(when (file-exists-p custom-file)
+(load custom-file))
 
 ;; As this config gets more complex I will move this
 (require 'dashboard)
