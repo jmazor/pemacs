@@ -68,6 +68,7 @@
     ivy
     counsel
     swiper
+    sublimity
     ;;imenu-anywhere
     projectile
     pdf-tools
