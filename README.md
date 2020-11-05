@@ -12,12 +12,15 @@ After install:
 
 Change /modules/prelude-company.el (c-headers) and /modules/cpplint.el (google cpplint) directories for your machine
 
+Set a font for your machine in /core/prelude-ui.el Currently using Ubuntu Mono
+
 M-x Recompile-Init
 
 create a .gnus.el if you want to use gnus mail reader
+I also use gnus as a rss reader. You can add news.gmane.io if you want to use nntp server instead.
 
 If anyone ever uses this you are encouraged to fork your own copy and modify /core/prelude-packages.el and the rest of the config to your own liking. Packages included are modified via /modules/modules.el and their respective files. All packages are enabled by default, none are required.
-/vendor is for unmodified packages not included in melpa. This is where googleflycheck files are included in this distribution - https://github.com/flycheck/flycheck-google-cpplint
+/vendor is for unmodified packages not included in melpa. This is where google's cpplint flycheck files are included in this distribution - https://github.com/flycheck/flycheck-google-cpplint
 
 The google cpplint can be found at - https://github.com/cpplint/cpplint
 

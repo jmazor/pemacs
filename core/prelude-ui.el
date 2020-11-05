@@ -81,5 +81,13 @@
 
 (treemacs-icons-dired-mode)
 
+;; Set Default Font
+(set-face-attribute 'default nil :font "Ubuntu Mono-14")
+
+;; Make Doom modeline look good
+(setq doom-modeline-height 20)
+(set-face-attribute 'mode-line nil :family "Ubuntu Mono" :height 115)
+(set-face-attribute 'mode-line-inactive nil :family "Ubuntu Mono" :height 115)
+
 (provide 'prelude-ui)
 ;;; prelude-ui.el ends here
