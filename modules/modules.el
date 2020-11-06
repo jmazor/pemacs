@@ -58,5 +58,8 @@
 ;; post c style
 (require 'prelude-c)
 
+;; gnus reader
+(require 'prelude-gnus)
+
 (provide 'modules)
 ;;; modules.el ends here
