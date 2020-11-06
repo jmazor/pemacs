@@ -36,7 +36,9 @@
 ;;; Code:
 
 
-;; TODO create a .gitattributes for cpplint and company
+;; TODO create a .gitattributes
+;; TODO move .gnus.el into directory
+
 ;; TODO semantic mode vs irony mode
 
 ;; How does semantic and c headers compare to Irony
@@ -85,8 +87,4 @@
 ;; I know this file will always exist but not in every config
 (when (file-exists-p custom-file)
 (load custom-file))
-
-;; As this config gets more complex I will move this
-(require 'dashboard)
-(dashboard-setup-startup-hook)
 ;;; init.el ends here
