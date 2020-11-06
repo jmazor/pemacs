@@ -86,7 +86,12 @@
 
 ;; I will deal with doom modeline here untill it gets out of hand
 (setq doom-modeline-gnus t)
-(setq doom-modeline-gnus-timer 2)
+
+;; FIXME This hangs my emacs depending on the number of RSS feeds
+(setq doom-modeline-gnus-timer 5)
+
+;; Wheter groups should be excludede when gnus automatically being updated.
+;; (setq doom-modeline-gnus-excluded-groups '("dummy.group"))
 
 ;; Make Doom modeline look good
 (setq doom-modeline-height 20)
