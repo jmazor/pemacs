@@ -1,4 +1,4 @@
-;; prelude-ui.el My custom Emacs UI config
+;;; prelude-ui.el --- My custom Emacs UI config
 ;;
 ;; Copyright © 2011-2020 Bozhidar Batsov
 ;;
@@ -83,6 +83,10 @@
 
 ;; Set Default Font
 (set-face-attribute 'default nil :font "Ubuntu Mono-14")
+
+;; I will deal with doom modeline here untill it gets out of hand
+(setq doom-modeline-gnus t)
+(setq doom-modeline-gnus-timer 2)
 
 ;; Make Doom modeline look good
 (setq doom-modeline-height 20)

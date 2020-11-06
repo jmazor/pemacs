@@ -51,7 +51,6 @@
     company
     company-c-headers
     crux
-    dashboard
     discover-my-major
     diff-hl
     doom-modeline
