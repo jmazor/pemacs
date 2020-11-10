@@ -36,7 +36,8 @@
 ;; Sets google c style
 (add-hook 'c-mode-common-hook 'google-set-c-style)
 ;; Automatically connect to ccls lsp server
-(add-hook 'c-mode-common-hook 'eglot-ensure)
+;; TODO Issues when connecting to c-mode-common-hook because .h files
+(add-hook 'c++-mode-hook 'eglot-ensure)
 
 ;; While I enjoy how minimal eglot is my reason for not using lsp-mode is I could not get cpplint flycheck to coexist
 ;; Eglot uses flymake so flymake and flycheck are being run

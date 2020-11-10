@@ -15,6 +15,8 @@
 ;; Enables sublimity mode keep as long as no C-x p + ...
 (global-set-key (kbd "C-x p") 'sublimity-mode)
 
+(global-set-key (kbd "C-c m") 'menu-bar-mode)
+
 ;; TODO Jump to def/ref keybind (with or without eglot?)
 
 (provide 'prelude-keybinds)
