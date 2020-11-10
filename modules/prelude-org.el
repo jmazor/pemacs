@@ -1,3 +1,3 @@
-(add-hook 'org-mode-hook (lambda () (linum-mode 0)))
+(add-hook 'org-mode-hook (lambda () (hl-todo-mode 1)))
 
 (provide 'prelude-org)
