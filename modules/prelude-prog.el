@@ -28,7 +28,7 @@
 ;; Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
 ;; Boston, MA 02110-1301, USA.
 
-;;; Code:(require 'which-func)
+;;; Code (require 'which-func)
 (which-function-mode 1)
 
 (require 'hl-todo)
@@ -51,3 +51,4 @@
   (add-hook 'prog-mode-hook 'flycheck-mode))
 
 (provide 'prelude-prog)
+;;; prelude-prog ends here

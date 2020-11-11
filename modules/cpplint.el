@@ -8,6 +8,6 @@
                            '(warning . c/c++-googlelint))
 (custom-set-variables
  '(flycheck-c/c++-googlelint-executable "/home/justin/Templates/cpplint/cpplint.py")
- '(flycheck-googlelint-filter "+whitespace, -whitespace/line_length"))
+ '(flycheck-googlelint-filter "+whitespace, -whitespace/line_length, -whitespace/empty_loop_body"))
 
 (provide 'cpplint)
