@@ -68,6 +68,7 @@
     counsel
     swiper
     sublimity
+    speed-type
     ;;imenu-anywhere
     projectile
     pdf-tools
