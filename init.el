@@ -43,6 +43,10 @@
 
 ;; How does semantic and c headers compare to Irony
 
+;; TODO configure projectile properly
+;; TODO automatically generate .ccls-cache pages for every file
+;; TODO fix Tree-macs tags (when you click on a tag you get an error)
+
 ;; Always load newest byte-code
 (setq load-prefer-newer t)
 
