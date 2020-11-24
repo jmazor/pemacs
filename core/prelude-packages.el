@@ -66,6 +66,7 @@
     hl-todo
     ivy
     counsel
+    soft-morning-theme
     swiper
     sublimity
     speed-type
