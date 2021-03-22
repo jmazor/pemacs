@@ -1,4 +1,6 @@
 # pemacs
+This is rarely updated or maintained.
+
 My personal emacs config. A tailored C/C++ IDE.  Based on prelude - https://github.com/bbatsov/prelude
 
 Install Guide:
