@@ -50,8 +50,7 @@
 (setq inhibit-splash-screen t)
 
 ;; nicer scrolling
-(setq scroll-margin 0
-      scroll-preserve-screen-position 1)
+(setq scroll-margin 0)
 
 (require 'sublimity)
 (require 'sublimity-attractive)
