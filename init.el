@@ -18,7 +18,9 @@
 ;; Setup package repo
 (require 'package)
 (add-to-list 'package-archives '("gnu"   . "https://elpa.gnu.org/packages/"))
-(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.org/packages/") t)
+
 (package-initialize)
 
 ;; Install use-package
@@ -289,22 +291,40 @@
   (customize-set-variable 'org-blank-before-new-entry 
                           '((heading . nil)
                             (plain-list-item . nil))))
+(use-package all-the-icons
+  :ensure t)
 
 
+(use-package emacsql
+  :ensure t)
+
+(use-package emacsql-sqlite
+  :ensure t)
+
+
+(use-package org-roam
+  :ensure t
+  :init
+  (setq org-roam-directory "~/roam")
+  :config
+  (org-roam-db-autosync-mode)
+    (require 'org-roam-dailies) ;; For daily notes
+  ;; Optionally, set up key bindings
+  (global-set-key (kbd "C-c n f") #'org-roam-node-find)
+  (global-set-key (kbd "C-c n r") #'org-roam-node-random)
+  (global-set-key (kbd "C-c n d") #'org-roam-dailies-capture-today))
+
+;; Set the custom file location
+(setq custom-file "~/.emacs.d/custom.el")
+
+;; Create the custom file if it doesn't exist
+(unless (file-exists-p custom-file)
+  (with-temp-buffer
+    (write-file custom-file)))
+
+;; Load the custom file
+(load custom-file)
 
 
 
 ;;; init.el ends here
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(package-selected-packages
-   '(olivetti treemacs-icons-dired undo-tree super-save hl-todo gruvbox-theme doom-modeline counsel company)))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
